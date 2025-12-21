@@ -1,0 +1,26 @@
+[package]
+name = "baidu-desktop"
+version = "0.1.0"
+description = "百度桌面应用"
+authors = ["you"]
+license = ""
+repository = ""
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+tauri-build = { version = "1.5", features = [] }
+
+[dependencies]
+tauri = { version = "1.5", features = [ "dialog-save", "window-unmaximize", "window-close", "window-hide", "window-start-dragging", "window-show", "window-maximize", "window-unminimize", "window-minimize", "shell-open"] }
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "gzip", "brotli", "deflate"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1", features = ["fs", "macros", "rt-multi-thread"] }
+url = "2"
+
+[features]
+# this feature is used for production builds or when `devPath` points to the filesystem
+# DO NOT REMOVE!!
+custom-protocol = ["tauri/custom-protocol"]

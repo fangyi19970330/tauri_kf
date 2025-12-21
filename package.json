@@ -1,0 +1,16 @@
+{
+  "name": "baidu-desktop",
+  "version": "0.1.0",
+  "description": "百度桌面应用",
+  "scripts": {
+    "tauri": "tauri",
+    "dev": "tauri dev",
+    "build": "tauri build"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.5.3"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.9"
+  }
+}
