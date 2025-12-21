@@ -2,7 +2,7 @@ name: Build Windows App
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, master_webview2 ]
   workflow_dispatch:
 
 jobs:
