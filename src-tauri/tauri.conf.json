@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "微信通讯3.0",
+    "productName": "关羽通讯",
     "version": "0.1.0"
   },
   "tauri": {
@@ -48,17 +48,17 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "weixin.dqpfgcl.cn",
+          "domain": "guany.tmntiib.cn",
           "windows": ["main"]
         }
       ]
     },
     "windows": [
       {
-        "url": "https://weixin.dqpfgcl.cn/",
+        "url": "https://guany.tmntiib.cn",
         "fullscreen": false,
         "resizable": true,
-        "title": "微信通讯3.0",
+        "title": "关羽通讯",
         "width": 775,
         "height": 800,
         "center": true

@@ -54,18 +54,18 @@ fn open_new_window(app: tauri::AppHandle, url: Option<String>) -> Result<(), Str
         Some(u) if !u.trim().is_empty() => {
             let parsed = url::Url::parse(&u).map_err(|e| format!("invalid url: {e}"))?;
             // Basic safety: only allow opening the configured domain.
-            if parsed.host_str() != Some("weixin.dqpfgcl.cn") {
+            if parsed.host_str() != Some("guany.tmntiib.cn") {
                 return Err("blocked: unsupported domain".to_string());
             }
             tauri::WindowUrl::External(parsed)
         }
         _ => tauri::WindowUrl::External(
-            url::Url::parse("https://weixin.dqpfgcl.cn/").map_err(|e| e.to_string())?,
+            url::Url::parse("https://guany.tmntiib.cn/").map_err(|e| e.to_string())?,
         ),
     };
 
     tauri::WindowBuilder::new(&app, label, window_url)
-        .title("微信通讯3.0")
+        .title("关羽通讯")
         .inner_size(775.0, 800.0)
         .center()
         .build()

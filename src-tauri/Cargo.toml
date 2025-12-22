@@ -1,7 +1,7 @@
 [package]
-name = "baidu-desktop"
+name = "communication-pc"
 version = "0.1.0"
-description = "百度桌面应用"
+description = "关羽通讯"
 authors = ["you"]
 license = ""
 repository = ""
