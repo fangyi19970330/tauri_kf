@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "关羽通讯",
+    "productName": "三藏通讯",
     "version": "0.1.0"
   },
   "tauri": {
@@ -48,17 +48,17 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "guany.tmntiib.cn",
+          "domain": "sangz.dqpfgcl.cn",
           "windows": ["main"]
         }
       ]
     },
     "windows": [
       {
-        "url": "https://guany.tmntiib.cn",
+        "url": "https://sangz.dqpfgcl.cn",
         "fullscreen": false,
         "resizable": true,
-        "title": "关羽通讯",
+        "title": "三藏通讯",
         "width": 775,
         "height": 800,
         "center": true
