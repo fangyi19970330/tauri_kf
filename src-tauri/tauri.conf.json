@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "三藏通讯",
+    "productName": "曹操通讯",
     "version": "0.1.0"
   },
   "tauri": {
@@ -35,7 +35,7 @@
     "bundle": {
       "active": true,
       "targets": ["nsis"],
-      "identifier": "wxtx3.0.desktop.app",
+      "identifier": "communication.pc.app",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
@@ -48,17 +48,17 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "sangz.dqpfgcl.cn",
+          "domain": "caocao.wnpel.cn",
           "windows": ["main"]
         }
       ]
     },
     "windows": [
       {
-        "url": "https://sangz.dqpfgcl.cn",
+        "url": "https://caocao.wnpel.cn",
         "fullscreen": false,
         "resizable": true,
-        "title": "三藏通讯",
+        "title": "曹操通讯",
         "width": 775,
         "height": 800,
         "center": true
