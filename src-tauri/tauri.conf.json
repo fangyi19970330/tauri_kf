@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "微信通讯",
+    "productName": "曹操通讯HK",
     "version": "0.1.0"
   },
   "tauri": {
@@ -48,17 +48,17 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "wechat.8880012.cn",
+          "domain": "caocaohk.wnpel.cn",
           "windows": ["main"]
         }
       ]
     },
     "windows": [
       {
-        "url": "https://wechat.8880012.cn",
+        "url": "https://caocaohk.wnpel.cn",
         "fullscreen": false,
         "resizable": true,
-        "title": "微信通讯",
+        "title": "曹操通讯HK",
         "width": 775,
         "height": 800,
         "center": true
