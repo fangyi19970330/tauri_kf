@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "曹操通讯HK",
+    "productName": "大龙群聊",
     "version": "0.1.0"
   },
   "tauri": {
@@ -48,18 +48,18 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "caocaohk.wnpel.cn",
+          "domain": "dalong.a-c2.cn",
           "windows": ["main"]
         }
       ]
     },
     "windows": [
       {
-        "url": "https://caocaohk.wnpel.cn",
+        "url": "https://dalong.a-c2.cn",
         "fullscreen": false,
         "resizable": true,
-        "title": "曹操通讯HK",
-        "width": 775,
+        "title": "大龙群聊",
+        "width": 900,
         "height": 800,
         "center": true
       }
