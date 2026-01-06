@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "大龙群聊",
+    "productName": "如来通讯",
     "version": "0.1.0"
   },
   "tauri": {
@@ -48,18 +48,18 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "dalong.a-c2.cn",
+          "domain": "rulai.dqpfgcl.cn",
           "windows": ["main"]
         }
       ]
     },
     "windows": [
       {
-        "url": "https://dalong.a-c2.cn",
+        "url": "https://rulai.dqpfgcl.cn",
         "fullscreen": false,
         "resizable": true,
-        "title": "大龙群聊",
-        "width": 900,
+        "title": "如来通讯",
+        "width": 780,
         "height": 800,
         "center": true
       }
