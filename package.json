@@ -1,7 +1,7 @@
 {
-  "name": "baidu-desktop",
+  "name": "kefu-desktop",
   "version": "0.1.0",
-  "description": "百度桌面应用",
+  "description": "在线客服",
   "scripts": {
     "tauri": "tauri",
     "dev": "tauri dev",
