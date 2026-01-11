@@ -1,7 +1,7 @@
 {
   "name": "communication-pc",
   "version": "0.1.0",
-  "description": "如来通讯",
+  "description": "战马",
   "scripts": {
     "tauri": "tauri",
     "dev": "tauri dev",
