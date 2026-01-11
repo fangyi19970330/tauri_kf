@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "如来通讯",
+    "productName": "战马",
     "version": "1.0.0"
   },
   "tauri": {
@@ -60,10 +60,10 @@
     },
     "windows": [
       {
-        "url": "https://rulai.dqpfgcl.cn/",
+        "url": "https://zhanma.rfqwt.cn",
         "fullscreen": false,
         "resizable": true,
-        "title": "如来通讯",
+        "title": "战马",
         "width": 775,
         "height": 800,
         "center": true
