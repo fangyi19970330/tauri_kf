@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "战马",
+    "productName": "百里玄策",
     "version": "0.1.0"
   },
   "tauri": {
@@ -58,7 +58,7 @@
         "url": "https://zhanma.rfqwt.cn",
         "fullscreen": false,
         "resizable": true,
-        "title": "战马",
+        "title": "百里玄策",
         "width": 780,
         "height": 800,
         "center": true

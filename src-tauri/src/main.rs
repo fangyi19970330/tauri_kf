@@ -65,7 +65,7 @@ fn open_new_window(app: tauri::AppHandle, url: Option<String>) -> Result<(), Str
     };
 
     tauri::WindowBuilder::new(&app, label, window_url)
-        .title("战马")
+        .title("百里玄策")
         .inner_size(775.0, 800.0)
         .center()
         .build()
