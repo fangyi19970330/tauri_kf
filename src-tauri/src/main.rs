@@ -60,12 +60,12 @@ fn open_new_window(app: tauri::AppHandle, url: Option<String>) -> Result<(), Str
             tauri::WindowUrl::External(parsed)
         }
         _ => tauri::WindowUrl::External(
-            url::Url::parse("https://zhanma.rfqwt.cn/").map_err(|e| e.to_string())?,
+            url::Url::parse("https://guany.tmntiib.cn/").map_err(|e| e.to_string())?,
         ),
     };
 
     tauri::WindowBuilder::new(&app, label, window_url)
-        .title("百里玄策")
+        .title("关羽")
         .inner_size(775.0, 800.0)
         .center()
         .build()
