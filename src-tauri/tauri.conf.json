@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "风云",
+    "productName": "财来",
     "version": "0.1.0"
   },
   "tauri": {
@@ -48,17 +48,17 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "fengyun.dlyxzy.cn",
+          "domain": "cailai.gznxqjj.cn",
           "windows": ["main"]
         }
       ]
     },
     "windows": [
       {
-        "url": "https://fengyun.dlyxzy.cn",
+        "url": "https://cailai.gznxqjj.cn",
         "fullscreen": false,
         "resizable": true,
-        "title": "风云",
+        "title": "财来",
         "width": 780,
         "height": 800,
         "center": true
