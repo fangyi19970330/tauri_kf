@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "悟空",
+    "productName": "风云",
     "version": "0.1.0"
   },
   "tauri": {
@@ -48,17 +48,17 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "wukong.dqpfgcl.cn",
+          "domain": "fengyun.dlyxzy.cn",
           "windows": ["main"]
         }
       ]
     },
     "windows": [
       {
-        "url": "https://wukong.dqpfgcl.cn",
+        "url": "https://fengyun.dlyxzy.cn",
         "fullscreen": false,
         "resizable": true,
-        "title": "悟空",
+        "title": "风云",
         "width": 780,
         "height": 800,
         "center": true
