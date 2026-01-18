@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "关羽2",
+    "productName": "妲己",
     "version": "0.1.0"
   },
   "tauri": {
@@ -48,17 +48,17 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "guanyu.a-c2.cn",
+          "domain": "daji.759808.cn",
           "windows": ["main"]
         }
       ]
     },
     "windows": [
       {
-        "url": "https://guanyu.a-c2.cn",
+        "url": "https://daji.759808.cn",
         "fullscreen": false,
         "resizable": true,
-        "title": "关羽2",
+        "title": "妲己",
         "width": 780,
         "height": 800,
         "center": true

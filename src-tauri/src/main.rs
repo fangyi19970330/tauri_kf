@@ -60,12 +60,12 @@ fn open_new_window(app: tauri::AppHandle, url: Option<String>) -> Result<(), Str
             tauri::WindowUrl::External(parsed)
         }
         _ => tauri::WindowUrl::External(
-            url::Url::parse("https://guanyu.a-c2.cn/").map_err(|e| e.to_string())?,
+            url::Url::parse("https://daji.759808.cn/").map_err(|e| e.to_string())?,
         ),
     };
 
     tauri::WindowBuilder::new(&app, label, window_url)
-        .title("关羽2")
+        .title("妲己")
         .inner_size(775.0, 800.0)
         .center()
         .build()
