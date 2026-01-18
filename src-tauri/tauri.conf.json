@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "妲己",
+    "productName": "悟空",
     "version": "0.1.0"
   },
   "tauri": {
@@ -48,17 +48,17 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "daji.759808.cn",
+          "domain": "wukong.dqpfgcl.cn",
           "windows": ["main"]
         }
       ]
     },
     "windows": [
       {
-        "url": "https://daji.759808.cn",
+        "url": "https://wukong.dqpfgcl.cn",
         "fullscreen": false,
         "resizable": true,
-        "title": "妲己",
+        "title": "悟空",
         "width": 780,
         "height": 800,
         "center": true
