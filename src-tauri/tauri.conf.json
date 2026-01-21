@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "财来",
+    "productName": "关羽",
     "version": "0.1.0"
   },
   "tauri": {
@@ -48,17 +48,17 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "cailai.gznxqjj.cn",
+          "domain": "gyone.tmntiib.cn",
           "windows": ["main"]
         }
       ]
     },
     "windows": [
       {
-        "url": "https://cailai.gznxqjj.cn",
+        "url": "https://gyone.tmntiib.cn",
         "fullscreen": false,
         "resizable": true,
-        "title": "财来",
+        "title": "关羽",
         "width": 780,
         "height": 800,
         "center": true

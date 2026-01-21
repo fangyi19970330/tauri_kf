@@ -1,7 +1,7 @@
 {
   "name": "communication-pc",
   "version": "0.1.0",
-  "description": "财来",
+  "description": "关羽",
   "scripts": {
     "tauri": "tauri",
     "dev": "tauri dev",
