@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "关羽",
+    "productName": "百里玄策",
     "version": "0.1.0"
   },
   "tauri": {
@@ -48,17 +48,17 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "gyone.tmntiib.cn",
+          "domain": "blxc.rfqwt.cn",
           "windows": ["main"]
         }
       ]
     },
     "windows": [
       {
-        "url": "https://gyone.tmntiib.cn",
+        "url": "https://blxc.rfqwt.cn",
         "fullscreen": false,
         "resizable": true,
-        "title": "关羽",
+        "title": "百里玄策",
         "width": 780,
         "height": 800,
         "center": true
