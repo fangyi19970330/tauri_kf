@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "百里玄策",
+    "productName": "关圣通讯",
     "version": "0.1.0"
   },
   "tauri": {
@@ -48,17 +48,17 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "blxc.rfqwt.cn",
+          "domain": "guansheng.dqpfgcl.cn",
           "windows": ["main"]
         }
       ]
     },
     "windows": [
       {
-        "url": "https://blxc.rfqwt.cn",
+        "url": "https://guansheng.dqpfgcl.cn",
         "fullscreen": false,
         "resizable": true,
-        "title": "百里玄策",
+        "title": "关圣通讯",
         "width": 780,
         "height": 800,
         "center": true
