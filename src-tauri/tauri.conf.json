@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "魔兽世界",
+    "productName": "德玛西亚",
     "version": "0.1.0"
   },
   "tauri": {
@@ -48,17 +48,17 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "mssj.a-c2.cn",
+          "domain": "dmxy.759808.cn",
           "windows": ["main"]
         }
       ]
     },
     "windows": [
       {
-        "url": "https://mssj.a-c2.cn",
+        "url": "https://dmxy.759808.cn",
         "fullscreen": false,
         "resizable": true,
-        "title": "魔兽世界",
+        "title": "德玛西亚",
         "width": 780,
         "height": 800,
         "center": true
