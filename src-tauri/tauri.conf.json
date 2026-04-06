@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "关圣通讯",
+    "productName": "魔兽世界",
     "version": "0.1.0"
   },
   "tauri": {
@@ -48,17 +48,17 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "guansheng.dqpfgcl.cn",
+          "domain": "mssj.a-c2.cn",
           "windows": ["main"]
         }
       ]
     },
     "windows": [
       {
-        "url": "https://guansheng.dqpfgcl.cn",
+        "url": "https://mssj.a-c2.cn",
         "fullscreen": false,
         "resizable": true,
-        "title": "关圣通讯",
+        "title": "魔兽世界",
         "width": 780,
         "height": 800,
         "center": true
