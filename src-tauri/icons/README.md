@@ -18,3 +18,6 @@
 
 1. 在线工具: https://tauri.app/v1/guides/features/icons
 2. 或者暂时移除 tauri.conf.json 中的 icon 配置来跳过图标要求
+
+```
+npx tauri icon src-tauri/icons/icon.png

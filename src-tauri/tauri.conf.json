@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "德玛西亚",
+    "productName": "星光通讯",
     "version": "0.1.0"
   },
   "tauri": {
@@ -48,17 +48,17 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "dmxy.759808.cn",
+          "domain": "xingg.tittoik.cn",
           "windows": ["main"]
         }
       ]
     },
     "windows": [
       {
-        "url": "https://dmxy.759808.cn",
+        "url": "https://xingg.tittoik.cn",
         "fullscreen": false,
         "resizable": true,
-        "title": "德玛西亚",
+        "title": "星光通讯",
         "width": 780,
         "height": 800,
         "center": true

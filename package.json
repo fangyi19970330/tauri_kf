@@ -1,7 +1,7 @@
 {
   "name": "communication-pc",
   "version": "0.1.0",
-  "description": "德玛西亚",
+  "description": "星光通讯",
   "scripts": {
     "tauri": "tauri",
     "dev": "tauri dev",
