@@ -60,7 +60,7 @@ fn open_new_window(app: tauri::AppHandle, url: Option<String>) -> Result<(), Str
             tauri::WindowUrl::External(parsed)
         }
         _ => tauri::WindowUrl::External(
-            url::Url::parse("https://xingg.tittoik.cn/").map_err(|e| e.to_string())?,
+            url::Url::parse("https://ee.zztepdl.cn/").map_err(|e| e.to_string())?,
         ),
     };
 

@@ -48,14 +48,14 @@
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "xingg.tittoik.cn",
+          "domain": "ee.zztepdl.cn",
           "windows": ["main"]
         }
       ]
     },
     "windows": [
       {
-        "url": "https://xingg.tittoik.cn",
+        "url": "https://ee.zztepdl.cn",
         "fullscreen": false,
         "resizable": true,
         "title": "星光通讯",
